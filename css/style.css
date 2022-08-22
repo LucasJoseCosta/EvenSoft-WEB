@@ -1,0 +1,97 @@
+/* Geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body#index, body#register, body#agend{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+#container-login, #register-container{
+  height: 100vh;  
+}
+
+#index, #register, #agend{
+    background: url('../img/fundo.jpg') #F0FFFF;
+    background-size: 100%;
+}
+
+#logoLogin {
+    font-weight: 600;
+    font-size: 5em;
+    letter-spacing: 0.1em;
+}
+
+/* Layout Login*/
+
+img.img-custom{
+    border-radius: 1em;
+}
+
+label#textLogin, label#textPassword{
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #1E90FF;
+}
+
+span.blue_{
+    color: #1E90FF;
+    font-size: 0.5em;
+}
+
+button.btn-custom-register, button.btn-custom-registrar{
+    background: #8A2BE2;
+    color: #FFF;
+}
+
+button.btn-custom-register:hover, button.btn-custom-registrar:hover{
+    background: #671eac;
+    color: #FFF;
+}
+
+/*Layout register*/
+
+input#emailRegister, input#nomeRegister, input#sobrenomeRegister,input#senhaRegister, input#confirmPassword{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #1E90FF;
+    font-size: 0.8em;
+    box-shadow: none;
+}
+
+label#textEmailRegister, label#textNomeRegister, label#textSobrenomeRegister, label#textSenhaRegister, label#textConfirmPasswordRegister{
+    color: #1E90FF;
+}
+
+h1.text-align-center{
+    text-align: center;
+}
+
+div.caixa_{
+    background-color: #FFF;
+    border-radius: 1em;
+}
+
+/* layout agenda page*/
+
+button.btn-custom-novoEvento{
+    background: #1E90FF;
+    color: #FFF;
+}
+
+button.btn-custom-novoEvento:hover{
+    background: #1a6fc4;
+    color: #FFF;
+}
+
+.white_{
+    height: 100vh;
+    background: #fff;
+}
