@@ -113,6 +113,7 @@ function atualizarTabelaEventos(){
     botaoEditar.classList.add('btn-small');
     botaoEditar.classList.add('mr-2');
     botaoEditar.addEventListener('click', editarEventoAtual)
+    botaoEditar.addEventListener('click', fecharNovoEvento)
     botaoEditar.innerHTML = "Editar";
     celulaAcoes.appendChild(botaoEditar)
     botaoExcluir.setAttribute('data-delete-event', i);
@@ -219,6 +220,7 @@ function salvarNovoEvento(event) {
 
 
 buttonNovoEvento.addEventListener('click', mostraNovoEvento);
+buttonNovoEvento.addEventListener('click', fecharEditarEvento)
 buttonFecharNovoEvento.addEventListener('click', fecharNovoEvento);
 formNovoEvento.addEventListener('submit', salvarNovoEvento);
 buttonFecharEditarEvento.addEventListener('click', fecharEditarEvento);
